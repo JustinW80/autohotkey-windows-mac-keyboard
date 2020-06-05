@@ -34,9 +34,9 @@ SendMode Input
 RAlt & F7::SendInput {Media_Prev}
 RAlt & F8::SendInput {Media_Play_Pause}
 RAlt & F9::SendInput {Media_Next}
-F10::SendInput {Volume_Mute}
-F11::SendInput {Volume_Down}
-F12::SendInput {Volume_Up}
+RAlt & F10::SendInput {Volume_Mute}
+RAlt & F11::SendInput {Volume_Down}
+RAlt & F12::SendInput {Volume_Up}
 
 ; swap left command/windows key with left alt
 ;LWin::LAlt
@@ -103,57 +103,57 @@ Lwin & Tab::AltTab
 #m::WinMinimize,a
 
 
-; --------------------------------------------------------------
-; OS X keyboard mappings for special chars
-; --------------------------------------------------------------
-
-; Map Alt + L to @
-!l::SendInput {@}
-
-; Map Alt + N to \
-+!7::SendInput {\}
-
-; Map Alt + N to ©
-!g::SendInput {©}
-
-; Map Alt + o to ø
-!o::SendInput {ø}
-
-; Map Alt + 5 to [
-!5::SendInput {[}
-
-; Map Alt + 6 to ]
-!6::SendInput {]}
-
-; Map Alt + E to €
-!e::SendInput {€}
-
-; Map Alt + - to –
-!-::SendInput {–}
-
-; Map Alt + 8 to {
-!8::SendInput {{}
-
-; Map Alt + 9 to }
-!9::SendInput {}}
-
-; Map Alt + - to ±
-!+::SendInput {±}
-
-; Map Alt + R to ®
-!r::SendInput {®}
-
-; Map Alt + N to |
-!7::SendInput {|}
-
-; Map Alt + W to ∑
-!w::SendInput {∑}
-
-; Map Alt + N to ~
-!n::SendInput {~}
-
-; Map Alt + 3 to #
-!3::SendInput {#}
+;; --------------------------------------------------------------
+;; OS X keyboard mappings for special chars
+;; --------------------------------------------------------------
+;
+;; Map Alt + L to @
+;!l::SendInput {@}
+;
+;; Map Alt + N to \
+;+!7::SendInput {\}
+;
+;; Map Alt + N to ©
+;!g::SendInput {©}
+;
+;; Map Alt + o to ø
+;!o::SendInput {ø}
+;
+;; Map Alt + 5 to [
+;!5::SendInput {[}
+;
+;; Map Alt + 6 to ]
+;!6::SendInput {]}
+;
+;; Map Alt + E to €
+;!e::SendInput {€}
+;
+;; Map Alt + - to –
+;!-::SendInput {–}
+;
+;; Map Alt + 8 to {
+;!8::SendInput {{}
+;
+;; Map Alt + 9 to }
+;!9::SendInput {}}
+;
+;; Map Alt + - to ±
+;!+::SendInput {±}
+;
+;; Map Alt + R to ®
+;!r::SendInput {®}
+;
+;; Map Alt + N to |
+;!7::SendInput {|}
+;
+;; Map Alt + W to ∑
+;!w::SendInput {∑}
+;
+;; Map Alt + N to ~
+;!n::SendInput {~}
+;
+;; Map Alt + 3 to #
+;!3::SendInput {#}
 
 
 
